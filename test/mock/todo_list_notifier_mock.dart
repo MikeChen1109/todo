@@ -1,5 +1,5 @@
 import 'package:todo_example/domain/entity/todo.dart';
-import 'package:todo_example/notifier/todo_list_notifier.dart';
+import 'package:todo_example/presentation/todo/notifier/todo_list_notifier.dart';
 import 'package:mockito/mockito.dart';
 
 class TodoListNotifierMock extends TodoListNotifier with Mock {
